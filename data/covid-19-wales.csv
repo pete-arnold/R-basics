@@ -3,8 +3,8 @@ NA,NA,NA
 "Communicable Disease Surveillance Centre, Public Health Wales",NA,NA
 NA,NA,NA
 NA,NA,NA
-Cases as of:,NA,30 May 2020 13:00
-Deaths as of:,NA,30 May 2020 17:00
+Cases as of:,NA,5 Jun 2020 13:00
+Deaths as of:,NA,5 Jun 2020 17:00
 NA,NA,NA
 Contents,NA,NA
 NA,NA,NA
@@ -19,3 +19,6 @@ Deaths by date,NA,NA
 NA,NA,NA
 Deaths by LHB,NA,NA
 "Deaths suspected to be caused by COVID-19 in people who have tested positive for COVID-19, shown by Local Health Board of residence. Figures for some health boards will be suppressed if the number of deaths is 5 or lower, in order to prevent individual deaths from being identifiable. These figures only include deaths occurring in individuals who were laboratory confirmed with COVID-19. The majority of deaths reported here occurred in hospital settings, however a proportion occurred in care home settings. The figures do not include individuals who may have died from COVID-19 but who were not confirmed by laboratory testing. The true number of COVID-19 deaths will be higher. The Office for National Statistics reports on both suspected and confirmed COVID-19 deaths in England and Wales using data available on completion of the death registration process.",NA,NA
+NA,NA,NA
+"NOTE: If you have not downloaded this file directly from the dashboard, it could potentially be out of date. We recommend downloading this file directly from the dashboard whenever you need to use it to ensure you have the most up-to-date data.",NA,NA
+The latest data can be downloaded here,NA,NA
