@@ -26,6 +26,10 @@ archive_data <- function(data, filename) {
 
 # Update the data
 
+fetch_data <- function(url) {
+    data <- read.xlsx(url)
+}
+
 update_data <- function(url, filename) {
     download.file(url = url, destfile = 'data/covid-19.xlsx', mode="wb")
     data <- read_xlsx('data/covid-19.xlsx')
