@@ -12,6 +12,14 @@ load_data_xlsx <- function(filename, sheet) {
     read_xlsx(paste('data/', filename, sep=''), sheet=sheet)
 }
 
+fetch_data <- function(url) {
+    read.xlsx(url)
+}
+
+fetch_data_sheet <- function(url, sheet) {
+    read.xlsx(url, sheet=sheet)
+}
+
 # Archive the current data (before updating)
 
 archive_data <- function(data, filename) {
@@ -25,10 +33,6 @@ archive_data <- function(data, filename) {
 }
 
 # Update the data
-
-fetch_data <- function(url) {
-    data <- read.xlsx(url)
-}
 
 update_data <- function(url, filename) {
     download.file(url = url, destfile = 'data/covid-19.xlsx', mode="wb")
@@ -47,6 +51,12 @@ update_data_wales <- function(url, filename) {
 clean_data <- function(name) {
     name %>%
     mutate(dateRep=as.Date(dateRep, '%d/%m/%Y')) %>%
+    arrange(countriesAndTerritories, dateRep)
+}
+
+clean_url_data <- function(name, date_origin) {
+    name %>%
+    mutate(dateRep=as.Date(dateRep, origin=date_origin)) %>%
     arrange(countriesAndTerritories, dateRep)
 }
 
