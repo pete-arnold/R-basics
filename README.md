@@ -1,5 +1,5 @@
-# covid-19
+# R Basics
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pete-arnold/covid-19/master?filepath=covid-19.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pete-arnold/R_basics/master?filepath=covid-19.ipynb)
 
 Acquire and display Covid-19 cases and deaths
